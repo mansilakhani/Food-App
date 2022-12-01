@@ -1,22 +1,3 @@
-// void main() {
-//   WidgetsFlutterBinding.ensureInitialized();
-//   Firebase.initializeApp();
-//   runApp(GetMaterialApp(
-//     debugShowCheckedModeBanner: false,
-//     // initialRoute: '/introscreen',
-//     initialRoute: '/',
-//     getPages: [
-//       GetPage(name: '/', page: () => HomePage()),
-//       GetPage(name: '/introscreen', page: () => IntroScreen()),
-//       GetPage(name: '/signin_page', page: () => SignInScreen()),
-//       GetPage(name: '/signup_page', page: () => SignUpScreen()),
-//       // GetPage(name: '/favourite_page', page: () => FavouriteScreen()),
-//       // GetPage(name: '/cart_page', page: () => CartScreen()),
-//       // GetPage(name: '/profile_page', page: () => ProfileScreen()),
-//     ],
-//   ));
-// }
-
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -37,7 +18,7 @@ void main() {
     providers: [ChangeNotifierProvider(create: (context) => ProductProvider())],
     builder: (context, _) => MaterialApp(
       debugShowCheckedModeBanner: false,
-      //initialRoute: '/introscreen',
+      
       initialRoute: '/splash_screen',
       routes: {
         '/': (context) => const HomePage(),
