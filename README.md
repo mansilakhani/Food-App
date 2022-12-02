@@ -28,7 +28,7 @@ A new Flutter project.
 https://user-images.githubusercontent.com/111499824/205249253-1ba1ad1f-af14-43f2-b81f-ec3f311aa10d.mp4
 
 
-
+<img src="https://user-images.githubusercontent.com/111499824/205249253-1ba1ad1f-af14-43f2-b81f-ec3f311aa10d.mp4" width="48">
 
 
 
